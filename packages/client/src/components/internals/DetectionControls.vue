@@ -40,8 +40,10 @@ const initVRM = () => {
 }
 
 watch(() => vtbStore.loadPercent, () => {
-  if (vtbStore.loadPercent === 100)
+  if (vtbStore.loadPercent === 100) {
     loading.value = false
+    startDetecting()
+  }
 })
 
 /**
