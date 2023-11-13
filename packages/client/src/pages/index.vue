@@ -21,7 +21,7 @@ useHead({
   script: !isDev
     ? [
         {
-          src: 'https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js',
+          src: 'https://cdn.jsdelivr.net/npm/@mediapipe/holistic@0.5.1635989137/holistic.min.js',
           crossorigin: 'anonymous',
         },
         {
