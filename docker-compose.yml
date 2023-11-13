@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "3333:3333"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/packages/client/dist
+      - /app/packages/client/node_modules
+      - /app/packages/live2d/node_modules
+      - /app/packages/vtuber/node_modules

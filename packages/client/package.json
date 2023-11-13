@@ -13,10 +13,10 @@
     "url": "https://github.com/YunYouJun/vtuber"
   },
   "scripts": {
-    "dev": "vite --port 3333 --open",
+    "dev": "vite",
     "build": "cross-env NODE_ENV=production vite build",
     "generate": "cross-env NODE_ENV=production vite-ssg build",
-    "preview": "vite preview --port 4444",
+    "preview": "vite preview",
     "lint": "eslint \"**/*.{vue,ts,js}\"",
     "preview-https": "serve dist"
   },

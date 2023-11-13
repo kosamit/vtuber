@@ -145,6 +145,9 @@ export default defineConfig({
   ],
 
   server: {
+    host: true,
+    port: 3333,
+    // strictPort: true,
     fs: {
       strict: true,
     },
