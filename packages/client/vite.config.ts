@@ -29,7 +29,7 @@ export default defineConfig({
     rollupOptions: {
       // use cdn online
       external: [
-        '@mediapipe/holistic',
+        '@mediapipe/holistic@0.5.1635989137',
         '@mediapipe/camera_utils',
         '@mediapipe/drawing_utils',
       ],
